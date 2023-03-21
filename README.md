@@ -137,7 +137,18 @@ The files contains reference templates that has notes which explains what each s
 ![image](https://user-images.githubusercontent.com/115881685/226759033-2608206b-1f89-499b-9d5d-8a2999f550c3.png)
 
 
+
+
+To access the website, copy the domain name, and paste it the browser, press enter.
+
+
+
 ![image](https://user-images.githubusercontent.com/115881685/226759226-242f7adb-81bb-4ada-9c1a-760b411e7018.png)
+
+
+
+
+YES, we can now access our ecommerce web application with our domain name.
 
 
 
