@@ -1,4 +1,4 @@
-## Deploy a dynamic Ecommerce Website with Terraform
+## Deploy a Dynamic Ecommerce Website with Terraform
 
 In this project i demonstrated how to use Terraform to deploy a dynamic ecommerce application on aws.
 Using the Reference Architecture below, i used terraform to create the following resoueses; VPC with public and private subnet, Nat gateway, Security group, RDS, Application load balancer, SNS, Auto Scaling Group and Route 53.
