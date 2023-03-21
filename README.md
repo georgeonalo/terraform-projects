@@ -146,6 +146,7 @@ To access the website, copy the domain name, and paste it the browser, press ent
 ![image](https://user-images.githubusercontent.com/115881685/226759226-242f7adb-81bb-4ada-9c1a-760b411e7018.png)
 
 
+![image](https://user-images.githubusercontent.com/115881685/226761736-63a60fbd-9f96-445a-b165-eac071c6b505.png)
 
 
 YES, we can now access our ecommerce web application with our domain name.
