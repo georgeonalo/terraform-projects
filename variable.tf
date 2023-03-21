@@ -73,4 +73,9 @@ variable "multi_az_deployment" {
     type        = bool
 }
 
-
+# application laad balancer variables
+variable "ssl_certificate_arn" {
+    default     = "arn:aws:acm:us-east-1:910883278292:certificate/05c5aa1d-05a7-4458-8edb-d772458044ef"
+    description = "ssl certificate arn"
+    type        = string
+}
