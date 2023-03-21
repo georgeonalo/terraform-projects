@@ -19,7 +19,7 @@ The files contains reference templates that has notes which explains what each s
 ![image](https://user-images.githubusercontent.com/115881685/226753946-3b2ebff3-6ebb-4129-a753-2fbb07337bd3.png)
 
 
-### Create VPC
+### Create VPC with a vpc.tf file
 
 
 ![2 _VPC_Reference_Architecture](https://user-images.githubusercontent.com/115881685/226752425-4626d8e1-4376-4fb9-a853-8c4c8e3599f8.jpg)
@@ -50,7 +50,9 @@ The files contains reference templates that has notes which explains what each s
 
 
 
+
 ### Create Security Group with security-group.tf file
+
 
 
 ![image](https://user-images.githubusercontent.com/115881685/226755528-6fee7918-0b4d-4986-a5eb-e652573b0fd3.png)
@@ -60,18 +62,23 @@ The files contains reference templates that has notes which explains what each s
 
 
 
+
 ### Create RDS with rds.tf file
+
 
 ![image](https://user-images.githubusercontent.com/115881685/226756047-cfe8fbf0-2eeb-411c-a0ea-dd0fd18c93ba.png)
 
 
 ![image](https://user-images.githubusercontent.com/115881685/226756136-9ac0c2b3-6ebd-48b6-836c-291c7d833abe.png)
 
+
 ![image](https://user-images.githubusercontent.com/115881685/226756269-62bae8b4-6af8-4ece-ba9d-6e7515202cdc.png)
 
 
 
+
 ### Create Application Load Balancer with alb.tf file
+
 
 
 ![image](https://user-images.githubusercontent.com/115881685/226756595-69809979-a259-4a67-926d-17b2131d7bfe.png)
@@ -82,7 +89,9 @@ The files contains reference templates that has notes which explains what each s
 
 
 
+
 ### Create SNS Topic with sns.tf file
+
 
 ![image](https://user-images.githubusercontent.com/115881685/226757096-c06d3b0a-9b37-47bd-8c9e-92eeb6b28998.png)
 
@@ -92,5 +101,67 @@ The files contains reference templates that has notes which explains what each s
 ![image](https://user-images.githubusercontent.com/115881685/226757323-0ae54868-6935-4207-94c0-2d7603a6682f.png)
 
 ![image](https://user-images.githubusercontent.com/115881685/226757414-ed0d8963-7895-43cd-828a-aa4417f3fcb7.png)
+
+
+
+
+### Create Auto Scaling Group with asg.tf file
+
+
+
+![image](https://user-images.githubusercontent.com/115881685/226757972-8bbcd30b-3b9a-4812-95b0-ab6fa00d58fd.png)
+
+
+![image](https://user-images.githubusercontent.com/115881685/226758062-921091f6-547a-4f81-a931-107266c03653.png)
+
+
+![image](https://user-images.githubusercontent.com/115881685/226758138-73740e54-a03c-4db8-8184-f01b5ae05848.png)
+
+
+![image](https://user-images.githubusercontent.com/115881685/226758293-42cc8f19-9b07-4286-a1f8-c797a186a1f2.png)
+
+
+![image](https://user-images.githubusercontent.com/115881685/226758489-0fda8341-3532-441c-ae74-8ddaf3f37268.png)
+
+
+
+
+
+### Create Record Set in Route-53 with a route-53.tf file
+
+
+
+![image](https://user-images.githubusercontent.com/115881685/226758928-2dd54d12-ed09-46a3-95dc-3add31b6b30b.png)
+
+
+![image](https://user-images.githubusercontent.com/115881685/226759033-2608206b-1f89-499b-9d5d-8a2999f550c3.png)
+
+
+![image](https://user-images.githubusercontent.com/115881685/226759226-242f7adb-81bb-4ada-9c1a-760b411e7018.png)
+
+
+
+
+### Create output.tf file
+
+
+
+![image](https://user-images.githubusercontent.com/115881685/226759520-30ff491f-3e97-4271-a5ed-9075b43d0ed2.png)
+
+
+![image](https://user-images.githubusercontent.com/115881685/226759599-b7fb57e5-99c1-4d0a-a7d0-02c25e0a1397.png)
+
+
+
+
+After creating all the resources needed, a RAN Terranform destroy to destroy all the resources so as to not incur charges.
+
+
+
+
+![image](https://user-images.githubusercontent.com/115881685/226759881-5d5041b1-65d2-45bb-8acb-42b5a5f112e7.png)
+
+
+
 
 
