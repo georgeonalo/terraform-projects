@@ -75,7 +75,7 @@ variable "multi_az_deployment" {
 
 # application laad balancer variables
 variable "ssl_certificate_arn" {
-    default     = "arn:aws:acm:us-east-1:910883278292:certificate/05c5aa1d-05a7-4458-8edb-d772458044ef"
+    default     = "arn:aws:acm:us-east-1:910883278292:certificate/452578f7-016f-47ac-abb1-15aed4571491"
     description = "ssl certificate arn"
     type        = string
 }
@@ -107,7 +107,7 @@ variable "ec2_instance_type" {
 }
 
 variable "ec2_key_pair_name" {
-    default     = "MyEc2keypair"
+    default     = "my2ndkey"
     description = "name of the ec2 key pair"
     type        = string
 }
