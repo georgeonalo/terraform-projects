@@ -50,7 +50,7 @@ variable "ssh_location" {
 
 # rds variables
 variable "database_snapshot_identifier" {
-    default     = "arn:aws:rds:us-east-1:910883278292:snapshot:fleetcart-final-snapshot"
+    default     = "arn:aws:rds:us-east-1:552704151745:snapshot:fleetcart-final-snapshot"
     description = "the database snapshot arn"
     type        = string 
 }
@@ -75,7 +75,7 @@ variable "multi_az_deployment" {
 
 # application laad balancer variables
 variable "ssl_certificate_arn" {
-    default     = "arn:aws:acm:us-east-1:910883278292:certificate/452578f7-016f-47ac-abb1-15aed4571491"
+    default     = "arn:aws:acm:us-east-1:552704151745:certificate/5c39633a-49a3-4d63-8345-4e249a4431b6"
     description = "ssl certificate arn"
     type        = string
 }
@@ -95,7 +95,7 @@ variable "launch_template_name" {
 }
 
 variable "ec2_image_id" {
-    default     = "ami-0f80388418ead60af"
+    default     = "ami-0655a81b341b72ad0"
     description = "id of the ami"
     type        = string
 }
@@ -107,7 +107,7 @@ variable "ec2_instance_type" {
 }
 
 variable "ec2_key_pair_name" {
-    default     = "my2ndkey"
+    default     = "mykeypair"
     description = "name of the ec2 key pair"
     type        = string
 }
